@@ -128,20 +128,20 @@ $thisLowerHeight: $thisHeight - $thisUpperHeight;
     border-width: 0;
 
     @include lightTheme() {
-      background: rgb(255 255 255 / 0.4);
-      border-color: rgb(255 255 255 / 0.5);
+      background: rgb(255 255 255 / 40%);
+      border-color: rgb(255 255 255 / 50%);
 
       &:hover {
-        background: rgb(255 255 255 / 0.9);
+        background: rgb(255 255 255 / 90%);
       }
     }
 
     @include darkTheme() {
-      background: rgb(0 0 0 / 0.4);
-      border-color: rgb(0 0 0 / 0.5);
+      background: rgb(0 0 0 / 40%);
+      border-color: rgb(0 0 0 / 50%);
 
       &:hover {
-        background: rgb(0 0 0 / 0.9);
+        background: rgb(0 0 0 / 90%);
       }
     }
   }

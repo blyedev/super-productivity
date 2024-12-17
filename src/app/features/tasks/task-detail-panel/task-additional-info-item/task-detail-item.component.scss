@@ -255,7 +255,7 @@ mat-expansion-panel::ng-deep .mat-expansion-panel-header:not(.mat-expanded),
   }
 
   @include darkTheme() {
-    color: rgb(255 255 255 / 0.7);
+    color: rgb(255 255 255 / 70%);
   }
 
   > * {
