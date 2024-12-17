@@ -46,7 +46,7 @@ $weird-task-list-f: 5px;
     color: rgba(var(--palette-foreground-text), var(--palette-foreground-text-alpha, 1));
     // this would be the bookmark button border
     // border-color: rgba(0, 0, 0, 0.12);
-    border-color: rgba(0, 0, 0, 0.33);
+    border-color: rgb(0 0 0 / 0.33);
   }
 
   @include darkTheme() {
@@ -54,7 +54,7 @@ $weird-task-list-f: 5px;
     color: #fff;
     // this would be the bookmark button border
     // border-color: rgba(255, 255, 255, 0.12);
-    border-color: rgba(255, 255, 255, 0.33);
+    border-color: rgb(255 255 255 / 0.33);
   }
 
   &:active {

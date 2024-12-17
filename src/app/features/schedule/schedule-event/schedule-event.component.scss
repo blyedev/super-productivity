@@ -35,7 +35,7 @@ $margin-right: 10px;
   // }
 
   @include darkTheme() {
-    border-color: rgba(255, 255, 255, 0.1);
+    border-color: rgb(255 255 255 / 0.1);
     border-left-color: var(--project-color, $dark-theme-separator-color);
     background: $dark-theme-bg-slightly-lighter;
     color: $dark-theme-text-color;

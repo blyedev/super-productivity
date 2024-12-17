@@ -27,7 +27,7 @@ More info: https://sass-lang.com/d/function-units
       $height *
       0.8333 +
       px
-      hsl(math.floor(math.random() * 360), 100%, 50%);
+      hsl(math.floor(math.random() * 360) 100% 50%);
   $box-shadow2:
     $box-shadow2,
     0 0 #fff;
