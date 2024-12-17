@@ -40,7 +40,7 @@ $macExtraPadding: (-8px + $mac-title-bar-padding);
   flex-wrap: nowrap;
   align-items: center;
   padding: $navVerticalPadding $mobileHorizontalPadding;
-  //flex-wrap: wrap;
+  // flex-wrap: wrap;
   min-height: $bar-height-large;
 
   @include mq(xs) {
@@ -50,11 +50,11 @@ $macExtraPadding: (-8px + $mac-title-bar-padding);
 }
 
 .current-work-context-title {
-  //font-weight: bold;
+  // font-weight: bold;
   font-size: 18px;
   overflow: hidden;
   text-overflow: ellipsis;
-  //flex-grow: 1;
+  // flex-grow: 1;
   white-space: nowrap;
   max-width: 100%;
   cursor: pointer;
@@ -380,12 +380,12 @@ simple-counter-button {
 
     @include lightTheme() {
       background: $light-theme-selected-task-bg-color;
-      //border-color: rgba(0, 0, 0, 0.12);
+      // border-color: rgba(0, 0, 0, 0.12);
     }
 
     @include darkTheme() {
       background: $dark8;
-      //border-color: $dark-theme-extra-border-color;
+      // border-color: $dark-theme-extra-border-color;
     }
   }
 

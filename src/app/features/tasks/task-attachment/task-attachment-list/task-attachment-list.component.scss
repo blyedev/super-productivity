@@ -34,7 +34,7 @@ $thisLowerHeight: $thisHeight - $thisUpperHeight;
     border: 1px solid $light-theme-extra-border-color;
   }
 
-  //.controls,
+  // .controls,
   > a:focus + .controls,
   &.focus .controls,
   &:hover .controls {
@@ -103,7 +103,7 @@ $thisLowerHeight: $thisHeight - $thisUpperHeight;
   left: 0;
   right: 0;
   top: 0;
-  //transform: translateY(25%);
+  // transform: translateY(25%);
   z-index: 5;
   visibility: hidden;
   display: flex;

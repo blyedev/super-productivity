@@ -139,9 +139,9 @@
     @include extraBorder;
   }
 
-  th {
-    //@include mat-css-color-and-contrast(500);
-  }
+  // th {
+  //   @include mat-css-color-and-contrast(500);
+  // }
 
   th,
   td {
